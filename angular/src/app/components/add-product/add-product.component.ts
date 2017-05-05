@@ -17,7 +17,7 @@ export class AddProductComponent implements OnInit {
     productId: Number;
     imagesUrl: String;
     uploadImage: String;
-    oldProduct: any = {};
+    oldProduct: any = null;
 
     constructor(private pageTitle: Title,
                 private formBuilder: FormBuilder,

@@ -21,7 +21,7 @@ productSchema.pre('save', function (next) {
 var Product = mongoose.model('Product', productSchema);
 
 Product.getAll = function (query, callback) {
-    Product.find(function (err, products) {
+    Product.find({},null, {sort: '-createdAt'},function (err, products) {
         if (err) throw  err;
         callback(products);
     })
