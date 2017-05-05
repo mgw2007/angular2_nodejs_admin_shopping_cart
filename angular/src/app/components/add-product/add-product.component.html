@@ -1,0 +1,106 @@
+<div class="row">
+
+    <div class="col-md-6">
+        <!-- Horizontal Form -->
+        <div class="box box-info">
+            <div class="box-header with-border">
+                <h3 class="box-title">Product</h3>
+            </div>
+            <!-- /.box-header -->
+            <!-- form start -->
+            <form class="form-horizontal" [formGroup]="productForm" (submit)="onSubmit()">
+                <div class="box-body">
+                    <div class="form-group"
+                         [ngClass]="{'has-error':productForm.controls['title'].touched && !productForm.controls['title'].valid }">
+                        <label class="col-sm-2 control-label">Title</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" formControlName="title"/>
+                            <span class="help-block"
+                                  *ngIf="productForm.controls['title'].touched && productForm.controls['title'].hasError('required')">
+                                This filed is required
+                            </span>
+                            <span class="help-block"
+                                  *ngIf="productForm.controls['title'].touched && productForm.controls['title'].hasError('minlength')">
+                                This filed minimum length 4 characters
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group"
+                         [ngClass]="{'has-error':productForm.controls['description'].touched && !productForm.controls['description'].valid }">
+                        <label class="col-sm-2 control-label">Description</label>
+                        <div class="col-sm-10">
+                            <textarea type="text" class="form-control" formControlName="description"></textarea>
+                            <span class="help-block"
+                                  *ngIf="productForm.controls['description'].touched && productForm.controls['description'].hasError('required')">
+                                This filed is required
+                            </span>
+                            <span class="help-block"
+                                  *ngIf="productForm.controls['description'].touched && productForm.controls['description'].hasError('minlength')">
+                                This filed minimum length 4 characters
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group"
+                         [ngClass]="{'has-error':productForm.controls['price'].touched && !productForm.controls['price'].valid }">
+                        <label class="col-sm-2 control-label">Price</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" formControlName="price"/>
+                            <span class="help-block"
+                                  *ngIf="productForm.controls['price'].touched && productForm.controls['price'].hasError('required')">
+                                This filed is required
+                            </span>
+                            <span class="help-block"
+                                  *ngIf="productForm.controls['price'].touched && productForm.controls['price'].hasError('pattern')">
+                                This filed must be number
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group"
+                         [ngClass]="{'has-error':productImageTouched && !productImage }">
+                        <label class="col-sm-2 control-label">Image</label>
+                        <div class="col-sm-10">
+                            <input id="input-1" type="file" class="file"
+                                   data-show-upload="false"
+                                   data-show-remove="false"
+                                   data-show-preview="false"
+                                   data-max-file-size="2048k"
+                                   data-allowed-file-extensions='["jpg","jpeg", "png"]'
+                                   (change)="fileUpload($event)" (click)="fileUpload($event)">
+                            <span class="help-block" *ngIf="productImageTouched && !productImage">
+                                 Valid image with max size 2M required
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- /.box-body -->
+                    <div class="box-footer">
+                        <button type="button" class="btn btn-default" (click)="goToProductList()">Cancel
+                        </button>
+                        <button type="submit" class="btn btn-info pull-right"
+                                [disabled]="!productImage || !productForm.valid">Save
+                        </button>
+                    </div>
+                </div>
+                <!-- /.box-footer -->
+            </form>
+        </div>
+        <!-- /.box -->
+        <!-- /.box-body -->
+    </div>
+    <div class="col-md-6">
+        <!-- Horizontal Form -->
+        <div class="box box-info">
+            <div class="box-header with-border">
+                <h3 class="box-title">Product Image</h3>
+            </div>
+            <div class="box-body">
+                <div class="col-md-11">
+                    <div class="thumbnail">
+                        <img src="{{uploadImage}}" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.box -->
+</div>

@@ -1,0 +1,71 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "anuglar"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "../public/admin",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.css",
+        "../node_modules/font-awesome/css/font-awesome.css",
+        "../node_modules/ionicons/dist/css/ionicons.css",
+        "../node_modules/bootstrap-fileinput/css/fileinput.css",
+        "assets/dist/css/AdminLTE.min.css",
+        "assets/dist/css/skins/_all-skins.min.css",
+        "styles.css"
+      ],
+      "scripts": [
+        "assets/plugins/jQuery/jquery-2.2.3.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "assets/plugins/slimScroll/jquery.slimscroll.min.js",
+        "assets/plugins/fastclick/fastclick.js",
+        "assets/dist/js/app.min.js",
+        "assets/dist/js/demo.js",
+        "../node_modules/bootstrap-fileinput/js/fileinput.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json"
+    },
+    {
+      "project": "src/tsconfig.spec.json"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}

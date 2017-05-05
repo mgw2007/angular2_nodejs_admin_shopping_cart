@@ -1,0 +1,36 @@
+<aside class="main-sidebar">
+    <section class="sidebar">
+        <ul class="sidebar-menu">
+
+            <li routerLinkActive="active">
+                <a routerLink="/dashboard">
+                    <i class="fa fa-th"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li class="treeview" routerLinkActive="active">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i> <span>
+                    Products</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu" routerLinkActive="menu-open"
+                    [style.display]="(productsList.isActive || productsAdd.isActive) ? 'block' : 'none'">
+                    <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        #productsList="routerLinkActive">
+
+                        <a routerLink="/products"><i class="fa fa-circle-o"></i>
+                            List
+                        </a>
+                    </li>
+                    <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        #productsAdd="routerLinkActive"><a routerLink="/products/add"><i
+                            class="fa fa-plus-circle"></i>
+                        Add</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</aside>
