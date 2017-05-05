@@ -13,7 +13,7 @@ var flash = require('connect-flash');
 var validator = require('express-validator');
 var configs = require('./config/configs');
 var app = require('./expressApp');
-mongoose.connect(configs.database);
+mongoose.connect(process.env.DB_ACCESS|| configs.database);
 // load configs
 require('./config/passport');
 
