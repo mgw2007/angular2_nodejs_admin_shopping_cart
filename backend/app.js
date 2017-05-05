@@ -52,6 +52,10 @@ require('./config/security');
 require('./config/routes');
 
 
+app.use('/admin_dashboard/*',function (req,res,next) {
+    res.sendFile(path.join(__dirname,'public/admin_dashboard/index.html'));
+})
+
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
     var err = new Error('Not Found');
