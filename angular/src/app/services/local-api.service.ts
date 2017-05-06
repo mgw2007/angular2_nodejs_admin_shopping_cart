@@ -19,7 +19,6 @@ export class LocalApiService {
     getAuthHeader() {
         let headers = new Headers();
         headers.append('Authorization', this.authService.getToken());
-        headers.append('Content-Type', 'application/json');
         return {headers: headers};
     }
 
