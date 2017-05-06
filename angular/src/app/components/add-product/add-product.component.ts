@@ -74,6 +74,7 @@ export class AddProductComponent implements OnInit, AfterViewInit {
     }
 
     onSubmit() {
+        this.localBootstrap.showLoader();
         var product = this.productForm.value;
         let formData: FormData = new FormData();
         for (let key in this.productForm.value) {
@@ -85,11 +86,13 @@ export class AddProductComponent implements OnInit, AfterViewInit {
         if (this.oldProduct) {
 
             this.localApi.updateProduct(this.oldProduct._id, formData).subscribe(res => {
+                this.localBootstrap.hideLoader();
                 this.localBootstrap.notify({message: 'Product updated successfully', type: 'success'});
             })
         }
         else {
             this.localApi.addProduct(formData).subscribe(res => {
+                this.localBootstrap.hideLoader();
                 this.localBootstrap.notify({message: 'Product added successfully', type: 'success'});
                 this.router.navigate(['/products']);
             })

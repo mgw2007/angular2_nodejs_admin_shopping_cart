@@ -16,6 +16,9 @@ export class LocalBootstrapService {
     private notifySubject = new Subject<NotifyBootstrap>();
     private notifyObservable = this.notifySubject.asObservable();
 
+    private pageLoaderSubject = new Subject<boolean>();
+    private pageLoaderObservable = this.pageLoaderSubject.asObservable();
+
     confrimModal(item: ConfirmModal) {
         this.confirmModalSubject.next(item);
     }
@@ -31,11 +34,23 @@ export class LocalBootstrapService {
         })
     }
 
+    showLoader() {
+        this.pageLoaderSubject.next(true);
+    }
+
+    hideLoader() {
+        this.pageLoaderSubject.next(false);
+    }
+
     getNotifyObservable() {
         return this.notifyObservable;
     }
 
     getConfirmModalObservable() {
         return this.confirmModalObservable;
+    }
+
+    getPageLoaderObservable() {
+        return this.pageLoaderObservable;
     }
 }

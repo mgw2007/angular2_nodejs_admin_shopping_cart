@@ -23,6 +23,7 @@ import {AuthService} from "./services/auth.service";
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import {APP_BASE_HREF} from "@angular/common";
+import { BlockPageLoaderComponent } from './components/bootstrap/block-page-loader/block-page-loader.component';
 @NgModule({
     declarations: [
         AppComponent,
@@ -34,7 +35,8 @@ import {APP_BASE_HREF} from "@angular/common";
         ConfirmModalComponent,
         NotifyComponent,
         HomeComponent,
-        LoginComponent
+        LoginComponent,
+        BlockPageLoaderComponent
     ],
     imports: [
         BrowserModule,
