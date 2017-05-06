@@ -1,15 +1,18 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, AfterViewInit, ViewChild, ElementRef} from '@angular/core';
 import {Title} from "@angular/platform-browser";
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {LocalApiService} from "../../services/local-api.service";
-import {FlashMessagesService} from "angular2-flash-messages";
 import {ActivatedRoute, Router} from "@angular/router";
+import {LocalBootstrapService} from "../bootstrap/local-bootstrap.service";
+declare var $: any;
+
 @Component({
     selector: 'app-add-product',
     templateUrl: './add-product.component.html',
     styles: []
 })
-export class AddProductComponent implements OnInit {
+export class AddProductComponent implements OnInit, AfterViewInit {
+
 
     productForm: FormGroup;
     productImage: any = null;
@@ -18,13 +21,14 @@ export class AddProductComponent implements OnInit {
     imagesUrl: String;
     uploadImage: String;
     oldProduct: any = null;
+    @ViewChild('inputProductImage') inputProductImage: ElementRef;
 
     constructor(private pageTitle: Title,
                 private formBuilder: FormBuilder,
                 private localApi: LocalApiService,
-                private flashMsgService: FlashMessagesService,
+                private localBootstrap: LocalBootstrapService,
                 private activeRoute: ActivatedRoute,
-                private router: Router,) {
+                private router: Router) {
     }
 
     ngOnInit() {
@@ -49,6 +53,10 @@ export class AddProductComponent implements OnInit {
                 price: ['', [Validators.required, Validators.pattern(/^(\d+(\.\d+)?)$/)]],
             })
         });
+    }
+
+    ngAfterViewInit(): void {
+        $(this.inputProductImage.nativeElement).fileinput();
     }
 
     fileUpload(event: any) {
@@ -77,19 +85,18 @@ export class AddProductComponent implements OnInit {
         if (this.oldProduct) {
 
             this.localApi.updateProduct(this.oldProduct._id, formData).subscribe(res => {
-                this.flashMsgService.show('Product updated successfully', {cssClass: 'alert-success', timeout: 3000});
+                this.localBootstrap.notify({message: 'Product updated successfully', type: 'success'});
             })
         }
         else {
             this.localApi.addProduct(formData).subscribe(res => {
-                this.flashMsgService.show('Product added successfully', {cssClass: 'alert-success', timeout: 3000});
+                this.localBootstrap.notify({message: 'Product added successfully', type: 'success'});
                 this.router.navigate(['/products']);
             })
         }
     }
 
-    goToProductList()
-    {
+    goToProductList() {
         this.router.navigate(['/products']);
     }
 }

@@ -4,7 +4,6 @@ var config = require('../../config/configs');
 
 module.exports = {
     login: function (req, res, next) {
-        console.log('xxxxxxxxxxx')
         var email = req.body.email;
         var password = req.body.password;
         Admin.getAdminByEmail(email, function (err, admin) {
@@ -31,5 +30,8 @@ module.exports = {
                 return res.json({success: false, message: 'Admin not found'});
             }
         })
+    },
+    adminData: function (req, res) {
+        res.json({admin: req.user});
     }
 }

@@ -25,6 +25,7 @@
         "../node_modules/bootstrap-fileinput/css/fileinput.css",
         "assets/dist/css/AdminLTE.min.css",
         "assets/dist/css/skins/_all-skins.min.css",
+        "assets/plugins/iCheck/square/blue.css",
         "styles.css"
       ],
       "scripts": [
@@ -32,9 +33,12 @@
         "../node_modules/bootstrap/dist/js/bootstrap.min.js",
         "assets/plugins/slimScroll/jquery.slimscroll.min.js",
         "assets/plugins/fastclick/fastclick.js",
+        "assets/plugins/bootstrap-notify.js",
+        "../node_modules/bootstrap-fileinput/js/fileinput.js",
+        "assets/plugins/iCheck/icheck.min.js",
         "assets/dist/js/app.min.js",
         "assets/dist/js/demo.js",
-        "../node_modules/bootstrap-fileinput/js/fileinput.js"
+        "assets/dist/js/custom.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

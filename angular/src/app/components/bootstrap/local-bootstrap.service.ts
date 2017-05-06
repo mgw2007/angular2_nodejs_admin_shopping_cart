@@ -1,7 +1,8 @@
 import {Injectable} from '@angular/core';
 import {BehaviorSubject} from "rxjs/BehaviorSubject";
-import {ConfirmModal} from "./confirm-modal.interface";
+import {ConfirmModal} from "./confirm-modal/confirm-modal.interface";
 import {Subject} from "rxjs/Subject";
+import {NotifyBootstrap} from "./notify/notify-bootstrap.interface";
 
 @Injectable()
 export class LocalBootstrapService {
@@ -9,15 +10,32 @@ export class LocalBootstrapService {
     constructor() {
     }
 
-    private behaviorSubject = new Subject<ConfirmModal>();
-    observable = this.behaviorSubject.asObservable();
+    private confirmModalSubject = new Subject<ConfirmModal>();
+    private confirmModalObservable = this.confirmModalSubject.asObservable();
+
+    private notifySubject = new Subject<NotifyBootstrap>();
+    private notifyObservable = this.notifySubject.asObservable();
 
     confrimModal(item: ConfirmModal) {
-        console.log('zzzzzzzz')
-        this.behaviorSubject.next(item);
+        this.confirmModalSubject.next(item);
     }
 
-    // getObservable() {
-    //     return this.observable;
-    // }
+    notify(item: NotifyBootstrap) {
+        this.notifySubject.next(item);
+    }
+
+    notifySuccess(message) {
+        this.notify({
+            message: message,
+            type: 'success'
+        })
+    }
+
+    getNotifyObservable() {
+        return this.notifyObservable;
+    }
+
+    getConfirmModalObservable() {
+        return this.confirmModalObservable;
+    }
 }

@@ -59,7 +59,7 @@
                          [ngClass]="{'has-error':productImageTouched && !productImage }">
                         <label class="col-sm-2 control-label">Image</label>
                         <div class="col-sm-10">
-                            <input id="input-1" type="file" class="file"
+                            <input #inputProductImage type="file"
                                    data-show-upload="false"
                                    data-show-remove="false"
                                    data-show-preview="false"

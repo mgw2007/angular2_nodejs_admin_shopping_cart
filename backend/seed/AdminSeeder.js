@@ -12,7 +12,6 @@ var admins = [
 ];
 var done = 0;
 for (var i = 0; i < admins.length; i++) {
-    console.log('xxxxxxxxx')
     admins[i].save(function () {
         done++;
         if (done == admins.length) {

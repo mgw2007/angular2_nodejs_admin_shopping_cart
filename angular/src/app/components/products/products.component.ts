@@ -30,6 +30,7 @@ export class ProductsComponent implements OnInit {
             success: () => {
                 this.localApi.deleteProduct(id).subscribe(() => {
                     this.getAllProducts();
+                    this.localBootstrap.notify({message: 'Product deleted successfully', type: 'success'})
                 });
             }
         })
@@ -38,7 +39,6 @@ export class ProductsComponent implements OnInit {
     getAllProducts() {
         this.localApi.getAllProducts().subscribe(products => {
             this.products = LocalHelperService.chunkArray(products, 3);
-            console.log(this.products);
         });
     }
 

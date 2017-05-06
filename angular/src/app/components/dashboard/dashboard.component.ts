@@ -1,40 +1,40 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Router} from "@angular/router";
 import {Title} from "@angular/platform-browser";
-import {TestAppService} from "../test-app/test-app.service";
-import {ModalDirective} from 'ngx-bootstrap/modal';
-import {ConfirmModal} from "../bootstrap/confirm-modal.interface";
+import {LocalApiService} from "../../services/local-api.service";
 import {LocalBootstrapService} from "../bootstrap/local-bootstrap.service";
+import {AuthService} from "../../services/auth.service";
 
 @Component({
     selector: 'app-dashboard',
-    templateUrl: './dashboard.component.html',
-    styles: []
+    templateUrl: './dashboard.component.html'
 })
 export class DashboardComponent implements OnInit {
-    sdata: string;
+    loginUser = {
+        name: '',
+        email: ''
+    };
+    title = '';
 
-    constructor(private title1: Title, private _bootstrapService: LocalBootstrapService) {
+    constructor(private title1: Title,
+                private localApi: LocalApiService,
+                private router: Router,
+                private bootstrap: LocalBootstrapService,
+                private authService: AuthService) {
 
     }
 
     ngOnInit() {
-        this.title1.setTitle('Dashboard');
-
+        this.title = this.title1.getTitle();
+        this.router.events.subscribe((val) => {
+            this.title = this.title1.getTitle();
+        })
+        this.localApi.getUserData().subscribe(res => this.loginUser = res.admin);
     }
 
-    tryDelete(id) {
-        console.log(id)
+    onLogoutClick() {
+        this.authService.logout();
+        this.bootstrap.notifySuccess('You are logout');
+        this.router.navigate(['login']);
     }
-
-    updateData(value) {
-        // this._testAppService.showItem(value);
-        console.log('xxxxxxxxxxxxxxxxx')
-        this._bootstrapService.confrimModal({
-            'message': 'Are you sure from delete product ?',
-            'success': () => {
-                this.tryDelete(value);
-            }
-        });
-    }
-
 }

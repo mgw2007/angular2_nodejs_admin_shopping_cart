@@ -20,7 +20,6 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
-    "angular2-flash-messages": "^1.0.8",
     "angular2-jwt": "^0.2.3",
     "angular2-prettyjson": "^2.0.5",
     "bootstrap": "^3.3.7",

@@ -1,7 +1,7 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
 import {LocalBootstrapService} from "../local-bootstrap.service";
 import {ModalDirective} from "ngx-bootstrap";
-import {ConfirmModal} from "../confirm-modal.interface";
+import {ConfirmModal} from "./confirm-modal.interface";
 
 @Component({
     selector: 'app-confirm-modal',
@@ -18,11 +18,10 @@ export class ConfirmModalComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.localBootstrapService.observable.subscribe(item => this.show(item));
+        this.localBootstrapService.getConfirmModalObservable().subscribe(item => this.show(item));
     }
 
     show(item) {
-        console.log('herexx');
         this.item = item;
         this.confirmMessage = item.message;
         this.staticModal.show();
