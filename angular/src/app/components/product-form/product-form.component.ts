@@ -7,12 +7,11 @@ import {LocalBootstrapService} from "../bootstrap/local-bootstrap.service";
 declare var $: any;
 
 @Component({
-    selector: 'app-add-product',
-    templateUrl: './add-product.component.html',
+    selector: 'app-product-form',
+    templateUrl: './product-form.component.html',
     styles: []
 })
-export class AddProductComponent implements OnInit, AfterViewInit {
-
+export class ProductFormComponent implements OnInit, AfterViewInit {
 
     productForm: FormGroup;
     productImage: any = null;
@@ -34,6 +33,12 @@ export class AddProductComponent implements OnInit, AfterViewInit {
     ngOnInit() {
         this.imagesUrl = this.localApi.getProductImageUrl();
         this.uploadImage = this.imagesUrl;
+        this.productForm = this.formBuilder.group({
+            title: ['', [Validators.required, Validators.minLength(4)]],
+            description: ['', [Validators.required, Validators.minLength(4)]],
+            price: ['', [Validators.required, Validators.pattern(/^(\d+(\.\d+)?)$/)]],
+        })
+
         this.activeRoute.params.subscribe(params => {
             if (params.id) {
                 this.pageTitle.setTitle('Edit Product');
@@ -47,11 +52,7 @@ export class AddProductComponent implements OnInit, AfterViewInit {
             else {
                 this.pageTitle.setTitle('Add Product');
             }
-            this.productForm = this.formBuilder.group({
-                title: ['', [Validators.required, Validators.minLength(4)]],
-                description: ['', [Validators.required, Validators.minLength(4)]],
-                price: ['', [Validators.required, Validators.pattern(/^(\d+(\.\d+)?)$/)]],
-            })
+
         });
     }
 
@@ -74,28 +75,36 @@ export class AddProductComponent implements OnInit, AfterViewInit {
     }
 
     onSubmit() {
-        this.localBootstrap.showLoader();
-        var product = this.productForm.value;
-        let formData: FormData = new FormData();
-        for (let key in this.productForm.value) {
-            formData.append(key, this.productForm.value[key]);
-        }
-        if (!this.oldProduct || this.productImage != this.oldProduct.imagePath) {
-            formData.append('upload', this.productImage, this.productImage.name);
-        }
-        if (this.oldProduct) {
-
-            this.localApi.updateProduct(this.oldProduct._id, formData).subscribe(res => {
-                this.localBootstrap.hideLoader();
-                this.localBootstrap.notify({message: 'Product updated successfully', type: 'success'});
-            })
+        if (!this.productImage || !this.productForm.valid) {
+            Object.keys(this.productForm.controls).forEach(key => {
+                this.productForm.get(key).markAsTouched();
+            });
         }
         else {
-            this.localApi.addProduct(formData).subscribe(res => {
-                this.localBootstrap.hideLoader();
-                this.localBootstrap.notify({message: 'Product added successfully', type: 'success'});
-                this.router.navigate(['/products']);
-            })
+            this.localBootstrap.showLoader();
+            var product = this.productForm.value;
+            let formData: FormData = new FormData();
+            for (let key in this.productForm.value) {
+                formData.append(key, this.productForm.value[key]);
+            }
+            if (!this.oldProduct || this.productImage != this.oldProduct.imagePath) {
+                formData.append('upload', this.productImage, this.productImage.name);
+            }
+
+            if (this.oldProduct) {
+
+                this.localApi.updateProduct(this.oldProduct._id, formData).subscribe(res => {
+                    this.localBootstrap.hideLoader();
+                    this.localBootstrap.notify({message: 'Product updated successfully', type: 'success'});
+                })
+            }
+            else {
+                this.localApi.addProduct(formData).subscribe(res => {
+                    this.localBootstrap.hideLoader();
+                    this.localBootstrap.notify({message: 'Product added successfully', type: 'success'});
+                    this.router.navigate(['/products']);
+                })
+            }
         }
     }
 

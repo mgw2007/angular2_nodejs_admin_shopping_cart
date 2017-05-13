@@ -10,14 +10,18 @@ module.exports = {
         Jimp.read(original, function (err, lenna) {
             if (err) {
                 // send the default in case error happened in image
-                fs.readFile(defualtImg, function (err, buffer) {
-                    if (err) throw  err;
-                    res.writeHead(200, {'Content-Type': 'image/jpeg'});
-                    res.end(buffer, 'binary');
+                Jimp.read(defualtImg, function (err, lenna) {
+                    lenna.resize(570, req.query.w | 280)            // resize
+                        .quality(70)                 // set JPEG quality
+                        .getBuffer(Jimp.AUTO, function (err, buffer) {
+                            if (err) throw  err;
+                            res.writeHead(200, {'Content-Type': 'image/jpeg'});
+                            res.end(buffer, 'binary');
+                        })
                 })
             }
             else {
-                lenna.resize(Jimp.AUTO, req.query.w | 188)            // resize
+                lenna.resize(570, req.query.w | 280)            // resize
                     .quality(70)                 // set JPEG quality
                     .getBuffer(Jimp.AUTO, function (err, buffer) {
                         if (err) throw  err;

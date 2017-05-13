@@ -14,9 +14,9 @@ export class DashboardComponent implements OnInit {
         name: '',
         email: ''
     };
-    title = '';
+    pageTitle = '';
 
-    constructor(private title1: Title,
+    constructor(private title: Title,
                 private localApi: LocalApiService,
                 private router: Router,
                 private bootstrap: LocalBootstrapService,
@@ -25,11 +25,11 @@ export class DashboardComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.title = this.title1.getTitle();
+        this.pageTitle = this.title.getTitle();
         this.router.events.subscribe((val) => {
-            this.title = this.title1.getTitle();
+            this.pageTitle = this.title.getTitle();
         })
-        this.localApi.getUserData().subscribe(res => this.loginUser = res.admin);
+        this.localApi.getProfileData().subscribe(res => this.loginUser = res.admin);
     }
 
     onLogoutClick() {

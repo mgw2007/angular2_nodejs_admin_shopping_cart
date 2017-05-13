@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1496da26-1e27-407a-8358-3bf8eb2a0981" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/src/css/loader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/public/stylesheets/style1.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/AdminLTE.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/AdminLTE.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-bootstrap-social.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-bootstrap-social.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-fullcalendar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-select2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-select2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-without-plugins.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-without-plugins.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/_all-skins.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/_all-skins.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-black-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-black-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-black.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-black.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-blue-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-blue-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-blue.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-green-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-green-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-green.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-purple-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-purple-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-purple.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-red-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-red-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-red.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-yellow-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-yellow-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-yellow.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/avatar04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/avatar2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/avatar3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/avatar5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/boxed-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/boxed-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/american-express.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/cirrus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/mastercard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/mestro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/paypal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/paypal2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/visa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/default-50x50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/photo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/photo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/photo3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/photo4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user1-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user2-160x160.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user3-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user4-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user5-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user6-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user7-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user8-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/js/app.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/js/demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/js/pages/dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/js/pages/dashboard2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/bootstrap-notify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/bootstrap-notify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/fastclick/fastclick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/fastclick/fastclick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/flat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/flat@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/futurico/futurico.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/futurico/futurico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/futurico/futurico@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/icheck.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/line.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/line@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/minimal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/minimal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/minimal@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/polaris/polaris.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/polaris/polaris.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/polaris/polaris@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/square.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/square.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/square@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/jQuery/jquery-2.2.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/jQueryUI/jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/jQueryUI/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/slimScroll/jquery.slimscroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/slimScroll/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/boxed-bg.7799dece2c79854f63f0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/fontawesome-webfont.674f50d287a8c48dc19b.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/fontawesome-webfont.912ec66d7572ff821749.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/fontawesome-webfont.af7ae505a9eed503f8b8.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/fontawesome-webfont.b06871f281fee6b241d6.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/fontawesome-webfont.fee66e712a8a08eef580.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/glyphicons-halflings-regular.89889688147bd7575d63.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/glyphicons-halflings-regular.fa2772327f55d8198301.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/inline.d29802429416dc1671f0.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/ionicons.311d81961c5880647fec.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/ionicons.74c652671225d6ded874.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/ionicons.81414686e99c00d2921e.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/ionicons.bdf1d30681cf87986c38.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/ionicons.d9496a234c81179afbca.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/main.4fe7574a18a8a66c5417.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/polyfills.6c8aa8219053fa5f43b5.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/scripts.bac88c1f3521c1432079.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/styles.d5e9f2b46591d95cab7c.bundle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/vendor.9b9aade7014f587f44c4.bundle.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/.angular-cli.json" afterPath="$PROJECT_DIR$/angular/.angular-cli.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/css/styles.css" afterPath="$PROJECT_DIR$/angular/src/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/controllers/images.js" afterPath="$PROJECT_DIR$/backend/controllers/images.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/backend/public/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/views/layouts/layout.ejs" afterPath="$PROJECT_DIR$/backend/views/layouts/layout.ejs" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="loader.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/src/css/loader.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style1.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/public/stylesheets/style1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".angular-cli.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/.angular-cli.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/src/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/controllers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shoppingCart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/controllers/shoppingCart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/views/shop/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="images.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/controllers/images.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/views/layouts/layout.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>style</find>
+      <find>font</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/backend/views/layouts/layout.ejs" />
+        <option value="$PROJECT_DIR$/backend/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/angular/src/css/style.css" />
+        <option value="$PROJECT_DIR$/angular/.angular-cli.json" />
+        <option value="$PROJECT_DIR$/backend/controllers/images.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/angular/node_modules" />
+    <handled-path value="$PROJECT_DIR$/backend/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="C:\Users\mina\AppData\Roaming\npm\node_modules\jscs" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\backend\public\stylesheets" />
+      <recent name="D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\angular\src\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1496da26-1e27-407a-8358-3bf8eb2a0981" name="Default" comment="" />
+      <created>1494194131339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1494194131339</updated>
+      <workItem from="1494194136423" duration="1451000" />
+      <workItem from="1494195792163" duration="777000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2228000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25377643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/angular/src/css/loader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/public/stylesheets/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/shoppingCart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/shop/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/images.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/layouts/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/css/loader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/public/stylesheets/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/layouts/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/shop/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/shoppingCart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/images.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

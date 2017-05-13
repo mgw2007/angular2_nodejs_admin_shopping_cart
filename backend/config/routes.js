@@ -5,6 +5,5 @@ clientRoutes.forEach(function (route) {
     app.use(route.route, route.target);
 })
 adminRoutes.forEach(function (route) {
-    console.log('/admin' + route.route);
     app.use('/admin' + route.route, route.target);
 })

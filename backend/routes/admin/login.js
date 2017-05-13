@@ -1,6 +1,6 @@
 var router  = require('express').Router();
-var adminsCtrl = require('../../controllers/admin/admins');
+var loginCtrl = require('../../controllers/admin/login');
 
-router.post('/',adminsCtrl.login);
+router.post('/',loginCtrl.login);
 
 module.exports = router;

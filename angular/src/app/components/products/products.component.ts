@@ -4,6 +4,7 @@ import {Http} from "@angular/http";
 import {LocalApiService} from "../../services/local-api.service";
 import {LocalHelperService} from "../../services/local-helper.service";
 import {LocalBootstrapService} from "../bootstrap/local-bootstrap.service";
+import {AuthService} from "../../services/auth.service";
 
 @Component({
     selector: 'app-products',
@@ -15,7 +16,8 @@ export class ProductsComponent implements OnInit {
 
     constructor(private pageTitle: Title,
                 private localApi: LocalApiService,
-                private localBootstrap: LocalBootstrapService) {
+                private localBootstrap: LocalBootstrapService,
+                private auth: AuthService) {
     }
 
     ngOnInit() {

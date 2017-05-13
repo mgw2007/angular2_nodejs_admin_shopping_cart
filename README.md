@@ -1,2 +1,3 @@
-# angular2_admin_shop
-Mean stack project (node js , angular 2 , mogoos)
+# angular2_admin_shopping_cart
+Mean stack project (node js , angular 2 , mongoose)
+

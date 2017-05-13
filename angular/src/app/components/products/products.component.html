@@ -9,8 +9,8 @@
                         <p class="description">{{product.description}}</p>
                         <div class="clearfix">
                             <div class="price pull-left">${{product.price}}</div>
-                            <a (click)="deleteProduct(product._id)" class="btn btn-danger pull-right">Delete</a>
-                            <a routerLink="/products/edit/{{product._id}}" class="btn btn-success pull-right">Edit</a>
+                            <a *ngIf="auth.can('products.manage')" (click)="deleteProduct(product._id)" class="btn btn-danger pull-right">Delete</a>
+                            <a *ngIf="auth.can('products.manage')" routerLink="/products/edit/{{product._id}}" class="btn btn-success pull-right">Edit</a>
                         </div>
                     </div>
                 </div>

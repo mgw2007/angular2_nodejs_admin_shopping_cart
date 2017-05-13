@@ -1,0 +1,142 @@
+<div class="row">
+
+    <div class="col-md-6">
+        <!-- Horizontal Form -->
+        <div class="box box-success">
+            <div class="box-header with-border">
+                <h3 class="box-title">Product</h3>
+            </div>
+            <!-- /.box-header -->
+            <!-- form start -->
+            <form class="form-horizontal adminForm" [formGroup]="adminForm" (submit)="onSubmit()">
+                <div class="box-body">
+                    <div class="form-group"
+                         [ngClass]="{'has-error':adminForm.controls['name'].touched && !adminForm.controls['name'].valid }">
+                        <label class="col-sm-2 control-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" formControlName="name"/>
+                            <span class="help-block"
+                                  *ngIf="adminForm.controls['name'].touched && adminForm.controls['name'].hasError('required')">
+                                This filed is required
+                            </span>
+                            <span class="help-block"
+                                  *ngIf="adminForm.controls['name'].touched && adminForm.controls['name'].hasError('minlength')">
+                                This filed minimum length 4 characters
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group"
+                         [ngClass]="{'has-error':adminForm.controls['email'].touched && !adminForm.controls['email'].valid && !adminForm.controls['email'].pending }">
+                        <label class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" formControlName="email"/>
+                            <span class="help-block"
+                                  *ngIf="adminForm.controls['email'].touched && adminForm.controls['email'].hasError('required')">
+                                This filed is required
+                            </span>
+                            <span class="help-block"
+                                  *ngIf="adminForm.controls['email'].touched && adminForm.controls['email'].hasError('email') && !adminForm.controls['email'].hasError('required')">
+                                This filed must be in email format
+                            </span>
+                            <span class="help-block"
+                                  *ngIf="adminForm.controls['email'].hasError('duplicated')">
+                                This email already exist
+                            </span>
+                            <span class="help-block"
+                                  *ngIf="adminForm.controls['email'].pending">Checking duplication...</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group"
+                         [ngClass]="{'has-error':adminForm.controls['password'].touched && !adminForm.controls['password'].valid }">
+                        <label class="col-sm-2 control-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" formControlName="password"/>
+                            <span class="help-block"
+                                  *ngIf="adminForm.controls['password'].touched && adminForm.controls['password'].hasError('required')">
+                                This filed is required
+                            </span>
+                            <span class="help-block"
+                                  *ngIf="adminForm.controls['password'].touched && adminForm.controls['password'].hasError('minlength')">
+                               This filed minimum length 4 characters
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group"
+                         [ngClass]="{'has-error':
+                         adminForm.controls['confirmPassword'].touched &&
+                         (adminForm.controls['confirmPassword'].value != adminForm.controls['password'].value || !adminForm.controls['confirmPassword'].valid) &&
+                         adminForm.controls['password'].valid}">
+                        <label class="col-sm-2 control-label">Confirm Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" formControlName="confirmPassword"/>
+                            <span class="help-block"
+                                  *ngIf="adminForm.controls['confirmPassword'].touched && adminForm.controls['confirmPassword'].hasError('required') && adminForm.controls['password'].valid">
+                                This filed is required
+                            </span>
+                            <span class="help-block"
+                                  *ngIf="adminForm.controls['confirmPassword'].touched && adminForm.controls['confirmPassword'].value && adminForm.controls['confirmPassword'].value != adminForm.controls['password'].value && adminForm.controls['password'].valid">
+                                Password is not matched
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" class="minimal" name="isSuperAdmin" id="role"
+                                           formControlName="isSuperAdmin" value="1"> Super Admin
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div formGroupName="roles">
+                        <div class="form-group" [style.display]="adminForm.controls.isSuperAdmin.value ? 'none' :'' ">
+                            <label class="col-sm-2 control-label">Admins Role</label>
+                            <div class="col-sm-offset-2 col-sm-8">
+                                <label>
+                                    <input type="radio" formControlName="admins" name="admins" value="view">
+                                    View Only
+                                </label>
+                                <label>
+                                    <input type="radio" formControlName="admins" name="admins" value="manage">
+                                    Manage admins
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group" [style.display]="adminForm.controls.isSuperAdmin.value ? 'none' :'' ">
+                            <label class="col-sm-2 control-label">Products Role</label>
+                            <div class="col-sm-offset-2 col-sm-8">
+                                <label>
+                                    <input type="radio" formControlName="products" name="products"
+                                           value="view"
+                                          >
+                                    View Only
+                                </label>
+                                <label>
+                                    <input type="radio" formControlName="products" name="products"
+                                           value="manage"
+                                           >
+                                    Manage products
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer">
+                        <button type="button" class="btn btn-default" (click)="goToAdminsList()">Cancel
+                        </button>
+                        <button type="submit" class="btn btn-info pull-right">
+                            Save
+                        </button>
+                    </div>
+                </div>
+                <!-- /.box-footer -->
+            </form>
+        </div>
+        <!-- /.box -->
+        <!-- /.box-body -->
+    </div>
+
+    <!-- /.box -->
+</div>

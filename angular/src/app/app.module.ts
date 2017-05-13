@@ -9,7 +9,7 @@ import {NavbarComponent} from './components/navbar/navbar.component';
 import {ProductsComponent} from './components/products/products.component';
 import {DashboardComponent} from './components/dashboard/dashboard.component';
 import {LocalApiService} from "./services/local-api.service";
-import {AddProductComponent} from './components/add-product/add-product.component';
+import {ProductFormComponent} from './components/product-form/product-form.component';
 import {LocalHelperService} from "./services/local-helper.service";
 import {AppRouteModule} from "./app.routes";
 import {TestAppComponent} from './components/test-app/test-app.component';
@@ -22,21 +22,24 @@ import {AuthGuard} from "./guards/auth.guard";
 import {AuthService} from "./services/auth.service";
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
-import {APP_BASE_HREF} from "@angular/common";
 import { BlockPageLoaderComponent } from './components/bootstrap/block-page-loader/block-page-loader.component';
+import { AdminFormComponent } from './components/admin-form/admin-form.component';
+import { AdminsComponent } from './components/admins/admins.component';
 @NgModule({
     declarations: [
         AppComponent,
         NavbarComponent,
         ProductsComponent,
         DashboardComponent,
-        AddProductComponent,
+        ProductFormComponent,
         TestAppComponent,
         ConfirmModalComponent,
         NotifyComponent,
         HomeComponent,
         LoginComponent,
-        BlockPageLoaderComponent
+        BlockPageLoaderComponent,
+        AdminFormComponent,
+        AdminsComponent
     ],
     imports: [
         BrowserModule,

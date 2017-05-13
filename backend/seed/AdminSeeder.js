@@ -7,8 +7,18 @@ var admins = [
     new Admin({
         name: 'Admin',
         email: 'admin@mina.com',
-        password: 123123
-    })
+        password: Admin.encryptPassword(123123),
+        isSuperAdmin: true,
+        roles: {}
+    }),
+    new Admin({
+        name: 'Admin 2',
+        email: 'admin2@mina.com',
+        password: Admin.encryptPassword(123123),
+        isSuperAdmin: false,
+        roles: {products: 'manage', admins: 'view'}
+    }),
+
 ];
 var done = 0;
 for (var i = 0; i < admins.length; i++) {

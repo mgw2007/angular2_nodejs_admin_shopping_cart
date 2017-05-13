@@ -8,7 +8,8 @@
                     <span>Dashboard</span>
                 </a>
             </li>
-            <li class="treeview" routerLinkActive="active">
+            <li class="treeview" routerLinkActive="active"
+                [hidden]="!auth.can('products.manage') && !auth.can('products.view')">
                 <a href="#">
                     <i class="fa fa-dashboard"></i> <span>
                     Products</span>
@@ -19,16 +20,53 @@
                 <ul class="treeview-menu" routerLinkActive="menu-open"
                     [style.display]="(productsList.isActive || productsAdd.isActive) ? 'block' : 'none'">
                     <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
-                        #productsList="routerLinkActive">
+                        #productsList="routerLinkActive"
+                        [hidden]="!auth.can('products.view')">
 
                         <a routerLink="/products"><i class="fa fa-circle-o"></i>
                             List
                         </a>
                     </li>
+                    <li routerLinkActive="active"
+                        [routerLinkActiveOptions]="{exact:true}"
+                        #productsAdd="routerLinkActive" [hidden]="!auth.can('products.manage')"
+                    >
+                        <a routerLink="/products/add">
+                            <i class="fa fa-plus-circle"></i>
+                            Add
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="treeview" routerLinkActive="active"
+                [hidden]="!auth.can('admins.manage') && !auth.can('admins.view')">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i> <span>
+                    Admins</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu" routerLinkActive="menu-open"
+                    [style.display]="(adminsList.isActive || adminsAdd.isActive) ? 'block' : 'none'">
                     <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
-                        #productsAdd="routerLinkActive"><a routerLink="/products/add"><i
-                            class="fa fa-plus-circle"></i>
-                        Add</a></li>
+                        #adminsList="routerLinkActive"
+                        [hidden]="!auth.can('admins.view')"
+                    >
+                        <a routerLink="/admins">
+                            <i class="fa fa-circle-o"></i>
+                            List
+                        </a>
+                    </li>
+                    <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        #adminsAdd="routerLinkActive"
+                        [hidden]="!auth.can('admins.manage')"
+                    >
+                        <a routerLink="/admins/add">
+                            <i class="fa fa-plus-circle"></i>
+                            Add
+                        </a>
+                    </li>
                 </ul>
             </li>
         </ul>

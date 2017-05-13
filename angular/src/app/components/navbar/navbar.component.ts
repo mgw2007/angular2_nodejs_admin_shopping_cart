@@ -1,5 +1,6 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import {Router} from "@angular/router";
+import {AuthService} from "../../services/auth.service";
 
 @Component({
     selector: 'app-navbar',
@@ -7,12 +8,15 @@ import {Router} from "@angular/router";
     styles: []
 })
 export class NavbarComponent implements OnInit {
-
-    constructor(private router: Router) {
+    @ViewChild('adminsAdd') adminsAdd: ElementRef;
+    @ViewChild('adminsList') adminsList: ElementRef;
+    @ViewChild('productsList') productsList: ElementRef;
+    @ViewChild('productsAdd') productsAdd: ElementRef;
+    constructor(private router: Router, public auth: AuthService) {
     }
 
     ngOnInit() {
-        console.log(this.router.url);
+        // console.log(this.router.url);
 
     }
 

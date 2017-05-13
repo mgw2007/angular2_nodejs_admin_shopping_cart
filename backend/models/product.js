@@ -26,12 +26,14 @@ Product.getAll = function (query, callback) {
         callback(products);
     })
 };
+
 Product.getById = function (id, callback) {
     Product.findById(id, function (err, product) {
         if (err) throw  err;
         callback(product);
     })
 }
+
 Product.deleteById = function (id, callback) {
     Product.findOneAndRemove({_id: id}, function (err) {
         if (err) throw  err;

@@ -31,6 +31,7 @@ module.exports = {
         })
     },
     save: function (req, res) {
+        console.log(req.body)
         upload.single("upload")(req, res, function (err) {
             if (err) {
                 res.send(err);
