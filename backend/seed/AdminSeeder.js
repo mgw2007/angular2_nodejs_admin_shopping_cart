@@ -3,6 +3,10 @@ var configs = require('./../config/configs');
 mongoose.connect(configs.database);
 
 var Admin = require('../models/admin');
+Admin.remove({}, function(err, result) {
+    if(err) throw err;
+    console.log('admis collection removed')
+});
 var admins = [
     new Admin({
         name: 'Admin',

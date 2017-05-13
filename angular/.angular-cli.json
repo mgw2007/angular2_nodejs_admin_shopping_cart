@@ -26,7 +26,8 @@
         "assets/dist/css/AdminLTE.min.css",
         "assets/dist/css/skins/_all-skins.min.css",
         "assets/plugins/iCheck/square/blue.css",
-        "css/loader.css"
+        "css/loader.css",
+		"css/styles.css"
       ],
       "scripts": [
         "assets/plugins/jQuery/jquery-2.2.3.min.js",
