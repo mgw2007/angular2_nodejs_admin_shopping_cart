@@ -76,14 +76,18 @@ module.exports = {
                         for (var i in err.errors) {
                             messages.push(err.errors[i].message);
                         }
-                        req.flash('error', messages);
+                        req.flash('signupErrors', messages);
                         return res.redirect('/user/signup');
                     }
                     else {
-                        var url = '/user/profile';
+                        var url = '';
                         if (req.session.prevUrl) {
                             url = req.session.prevUrl;
                             req.session.prevUrl = null;
+                        }
+                        if(!url)
+                        {
+                            url = '/user/profile';
                         }
                         return res.redirect(url)
                     }
@@ -97,7 +101,7 @@ module.exports = {
         res.render('user/signin', {title: 'ShoppingCart-Sign In', csrfToken: req.csrfToken(), messages: error})
     },
     submitSignin: passport.authenticate('local.signin', {
-        failureRedirect: 'user/signin',
+        failureRedirect: '/user/signin',
         failureFlash: true
     }),
     submitSigninSuccess: function (req, res, next) {

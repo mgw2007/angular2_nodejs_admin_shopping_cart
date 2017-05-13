@@ -6,6 +6,13 @@ var User = require('../models/user');
 var Admin = require('../models/admin');
 var LocalStrategy = require('passport-local').Strategy;
 
+passport.serializeUser(function(user, done) {
+    done(null, user);
+});
+
+passport.deserializeUser(function(user, done) {
+    done(null, user);
+});
 
 
 passport.use('local.signin', new LocalStrategy({
