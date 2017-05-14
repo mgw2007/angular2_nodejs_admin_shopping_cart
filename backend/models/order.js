@@ -18,5 +18,11 @@ Order.getAll = function (query, callback) {
         callback(orders);
     })
 };
+Order.getById = function (id, callback) {
+    Order.findOne(id).populate('user').exec(function (err, order) {
+        if (err) throw  err;
+        callback(order);
+    })
+};
 
 module.exports = Order

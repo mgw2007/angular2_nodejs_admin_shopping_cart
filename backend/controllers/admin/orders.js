@@ -14,10 +14,14 @@ module.exports = {
         })
     },
     invoice: function (req, res) {
-        res.render('shop/invoice.ejs', {data: 'test data', layout: false}, function (err, html) {
-            pdf.create(html).toStream(function (err, stream) {
-                stream.pipe(res);
+        Order.getById(req.res.id, function (order) {
+            var cart = new Cart(order.cart);
+            order.items = cart.generateArray()
+            res.render('shop/invoice.ejs', {order: order, layout: false}, function (err, html) {
+                pdf.create(html).toStream(function (err, stream) {
+                    stream.pipe(res);
+                });
             });
-        });
+        })
     }
 }

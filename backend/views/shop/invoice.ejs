@@ -1,1 +1,38 @@
-<h3><%= data %></h3>
+<table>
+    <tr>
+        <th collapse="2" >
+            Invoice Id :
+        </th>
+        <th><b><%- order.paymentId %></b></th>
+    </tr>
+    <tr>
+        <th collapse="3" style="float: left">
+            <h3>Order Details</h3>
+        </th>
+    </tr>
+    <tr>
+        <td width="40%" style="border: 2px solid ">Product</td>
+        <td width="30%" style="border: 2px solid ">Units</td>
+        <td width="30%" style="border: 2px solid ">Price</td>
+    </tr>
+    <% order.items.forEach(function(item){ %>
+    <tr>
+        <td>
+            <%- item.item.title %>
+        </td>
+        <td>
+            <%- item.qty %> Units
+        </td>
+        <td>
+            <%- item.price %>
+        </td>
+    </tr>
+    <% }) %>
+    <tr>
+        <td style="border: 2px solid "></td>
+        <td style="border: 2px solid ">
+            Total Price:
+        </td>
+        <td style="border: 2px solid ">$ <%- order.cart.totalPrice %></td>
+    </tr>
+</table>
