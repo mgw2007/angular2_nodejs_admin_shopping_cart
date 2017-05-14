@@ -110,14 +110,24 @@
                                 <label>
                                     <input type="radio" formControlName="products" name="products"
                                            value="view"
-                                          >
+                                    >
                                     View Only
                                 </label>
                                 <label>
                                     <input type="radio" formControlName="products" name="products"
                                            value="manage"
-                                           >
+                                    >
                                     Manage products
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group" [style.display]="adminForm.controls.isSuperAdmin.value ? 'none' :'' ">
+                            <label class="col-sm-2 control-label">Orders Role</label>
+                            <div class="col-sm-offset-2 col-sm-8">
+                                <label>
+                                    <input type="radio" formControlName="orders" name="orders"
+                                           value="view">
+                                    View
                                 </label>
                             </div>
                         </div>

@@ -50,6 +50,7 @@ export class AdminFormComponent implements OnInit, AfterViewInit {
             roles: this.formBuilder.group({
                 admins: ['', [Validators.required]],
                 products: ['', [Validators.required]],
+                orders: ['', []],
             })
         })
 

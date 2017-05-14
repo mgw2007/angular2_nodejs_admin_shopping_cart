@@ -7,5 +7,16 @@ var orderSchema = new Schema({
     address: {type: String, required: true},
     name: {type: String, required: true},
     paymentId: {type: String, required: true}
-})
-module.exports = mongoose.model('Order',orderSchema);
+}, {
+    timestamps: true
+});
+var Order = mongoose.model('Order', orderSchema);
+Order.getAll = function (query, callback) {
+    Order.find().populate('user').exec(function (err, orders) {
+        console.log(orders);
+        if (err) throw  err;
+        callback(orders);
+    })
+};
+
+module.exports = Order

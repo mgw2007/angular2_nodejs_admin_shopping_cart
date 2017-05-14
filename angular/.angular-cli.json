@@ -31,6 +31,7 @@
       ],
       "scripts": [
         "assets/plugins/jQuery/jquery-2.2.3.min.js",
+        "../node_modules/file-saver/FileSaver.js",
         "../node_modules/bootstrap/dist/js/bootstrap.min.js",
         "assets/plugins/slimScroll/jquery.slimscroll.min.js",
         "assets/plugins/fastclick/fastclick.js",

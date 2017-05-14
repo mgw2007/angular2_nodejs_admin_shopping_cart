@@ -8,6 +8,14 @@
                     <span>Dashboard</span>
                 </a>
             </li>
+
+            <li [hidden]="!auth.can('orders.view')" routerLinkActive="active">
+                <a routerLink="/orders">
+                    <i class="fa fa-edit"></i>
+                    <span>Orders</span>
+                </a>
+            </li>
+
             <li class="treeview" routerLinkActive="active"
                 [hidden]="!auth.can('products.manage') && !auth.can('products.view')">
                 <a href="#">

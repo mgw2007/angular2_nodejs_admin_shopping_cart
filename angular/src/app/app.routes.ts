@@ -7,12 +7,14 @@ import {HomeComponent} from "./components/home/home.component";
 import {LoginComponent} from "./components/login/login.component";
 import {AdminsComponent} from "./components/admins/admins.component";
 import {AdminFormComponent} from "./components/admin-form/admin-form.component";
+import {OrdersComponent} from "./components/orders/orders.component";
 
 const appRoutes: Routes = [
     {path: 'login', component: LoginComponent},
     {
-        path: '', component: DashboardComponent, canActivate: [AuthGuard],data:{'admins':'roless'}, children: [
+        path: '', component: DashboardComponent, canActivate: [AuthGuard], children: [
         {path: 'dashboard', component: HomeComponent},
+        {path: 'orders', component: OrdersComponent},
         {
             path: 'products', children: [
             {path: '', component: ProductsComponent},
@@ -22,8 +24,8 @@ const appRoutes: Routes = [
         },
         {
             path: 'admins', children: [
-            {path: '', component: AdminsComponent,data:{'admins':'rox'},canActivateChild:[AuthGuard]},
-            {path: 'add', component: AdminFormComponent,data:{'admins':'add'},canActivateChild:[AuthGuard]},
+            {path: '', component: AdminsComponent, canActivateChild: [AuthGuard]},
+            {path: 'add', component: AdminFormComponent, canActivateChild: [AuthGuard]},
             {path: 'edit/:id', component: AdminFormComponent},
         ]
         },

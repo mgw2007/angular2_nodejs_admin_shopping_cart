@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Http, Headers} from "@angular/http";
+import {Http, Headers, ResponseContentType} from "@angular/http";
 import {tokenNotExpired} from "angular2-jwt";
 
 import  'rxjs/add/operator/map';
@@ -67,6 +67,18 @@ export class LocalApiService {
 
     updateAdmin(id, admin) {
         return this.http.put(environment.localApiUrl + '/admins/' + id, admin, this.getAuthHeader()).catch(error => this.handleError(error));
+    }
+
+    getAllOrders() {
+        return this.http.get(environment.localApiUrl + '/orders', this.getAuthHeader()).map(res => res.json()).catch(error => this.handleError(error));
+    }
+
+    getOrderInvoicePdf(id) {
+        let h = this.getAuthHeader();
+        h['responseType'] = ResponseContentType.Blob;
+
+        return this.http.get(environment.localApiUrl + '/orders/invoice/' + id,h).map(res => res.blob());
+
     }
 
     handleError(error: any) {

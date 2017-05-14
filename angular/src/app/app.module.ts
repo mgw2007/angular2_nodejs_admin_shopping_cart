@@ -25,6 +25,7 @@ import { LoginComponent } from './components/login/login.component';
 import { BlockPageLoaderComponent } from './components/bootstrap/block-page-loader/block-page-loader.component';
 import { AdminFormComponent } from './components/admin-form/admin-form.component';
 import { AdminsComponent } from './components/admins/admins.component';
+import { OrdersComponent } from './components/orders/orders.component';
 @NgModule({
     declarations: [
         AppComponent,
@@ -39,7 +40,8 @@ import { AdminsComponent } from './components/admins/admins.component';
         LoginComponent,
         BlockPageLoaderComponent,
         AdminFormComponent,
-        AdminsComponent
+        AdminsComponent,
+        OrdersComponent
     ],
     imports: [
         BrowserModule,
