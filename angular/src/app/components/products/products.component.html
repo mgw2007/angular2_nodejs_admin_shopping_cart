@@ -3,7 +3,7 @@
         <ng-template ngFor let-product [ngForOf]="productsG">
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="https://source.unsplash.com/800x600/?nature,water">
+                    <img src="{{imagesUrl}}{{product.imagePath}}&w=188" alt="...">
                     <div class="caption">
                         <h3>{{product.title}}</h3>
                         <p class="description">{{product.description}}</p>

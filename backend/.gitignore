@@ -30,4 +30,9 @@ node_modules
 npm-debug.log
 
 uploads/products/*
-!uploads/products/default.png
+!uploads/products/6
+!uploads/products/5
+!uploads/products/3
+!uploads/products/3
+!uploads/products/2
+!uploads/products/1
