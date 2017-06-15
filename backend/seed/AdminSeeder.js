@@ -29,6 +29,8 @@ for (var i = 0; i < admins.length; i++) {
     admins[i].save(function () {
         done++;
         if (done == admins.length) {
+    console.log('admis Added')
+            
             exit();
         }
     });

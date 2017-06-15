@@ -1,0 +1,88 @@
+.thumbnail {
+    border-radius: 20px;
+}
+.thumbnail img{
+    max-height: none;
+    border-radius: 17px;
+}
+
+.caption h3{
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+.caption .btn{
+    margin-left: 10px;
+}
+.btn {
+    border-radius: 20px;
+    box-shadow: none;
+    border:0;
+}
+
+.skin-blue .main-header .navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.skin-blue .main-header .logo {
+    background-color: #08c;
+}
+
+.skin-blue .main-header .logo:hover {
+    background-color: #026ca0;
+}
+
+.skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li:hover>a {
+    border-left-color: #64af45;
+    background: rgba(0, 0, 0, 0.25);
+}
+.skin-blue .treeview-menu>li>a {
+    color: #888888;
+}
+.skin-blue .main-header .navbar .sidebar-toggle {
+    background-color: transparent;
+    color:#999;
+}
+.skin-blue .main-header .navbar .nav a {
+    color: #999 !important;
+}
+.skin-blue .main-header .navbar .nav .open>a, .skin-blue .main-header .navbar .nav .open>a:focus, .skin-blue .main-header .navbar .nav .open>a:hover, .skin-blue .main-header .navbar .nav>.active>a, .skin-blue .main-header .navbar .nav>li>a:active, .skin-blue .main-header .navbar .nav>li>a:focus, .skin-blue .main-header .navbar .nav>li>a:hover, .skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background: transparent;;
+    color: #000  !important;
+}
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    background: rgba(0, 0, 0, 0.09);
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: transparent;
+    color:#000;
+}
+.btn-primary.hover, .btn-primary:active, .btn-primary:hover {
+    background-color: #08c;
+}
+.box.box-info {
+    border-top-color: #08c;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail>img, .thumbnail a>img {
+    width: 100%;
+}
+.text-aqua {
+    color: #08c!important;
+}
+.progress-bar-aqua, .progress-bar-info {
+    background-color: #08c;
+}
+.skin-blue .main-header li.user-header {
+    background-color: #8c78b2;
+}
+.btn-info {
+    background-color: #08c;
+}
+
+.btn-info.active, .btn-info:active, .btn-info:hover, .open>.dropdown-toggle.btn-info {
+    background-color: #026ca0;
+}
+
+.btn-info.disabled.focus, .btn-info.disabled:focus, .btn-info.disabled:hover, .btn-info[disabled].focus, .btn-info[disabled]:focus, .btn-info[disabled]:hover, fieldset[disabled] .btn-info.focus, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:hover {
+    background-color: #9372d0;
+}
