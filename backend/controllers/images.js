@@ -17,8 +17,8 @@ module.exports = {
                             if (err) throw  err;
                             res.writeHead(200, {'Content-Type': 'image/jpeg'});
                             res.end(buffer, 'binary');
-                        })
-                })
+                        });
+                });
             }
             else {
                 lenna.resize(570, req.query.w | 280)            // resize
@@ -27,9 +27,9 @@ module.exports = {
                         if (err) throw  err;
                         res.writeHead(200, {'Content-Type': 'image/jpeg'});
                         res.end(buffer, 'binary');
-                    })
+                    });
             }
 
         });
     }
-}
+};

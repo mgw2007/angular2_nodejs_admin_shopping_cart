@@ -1,5 +1,5 @@
 import React from 'react'
-import { Field, reduxForm } from 'redux-form'
+import {Field, reduxForm} from 'redux-form'
 import {
     required,
     maxLength,
@@ -11,21 +11,21 @@ import {
     aol
 } from '../../form/FormValidations'
 
-const renderField = ({ input, label, type, meta: { touched, error, warning } }) => (
+const renderField = ({input, label, type, meta: {touched, error, warning}}) => (
     <div className="form-group has-feedback">
-        <input {...input} placeholder={label} type={type} className="form-control" />
+        <input {...input} placeholder={label} type={type} className="form-control"/>
     </div>
 )
 
 const FieldLevelValidationForm = (props) => {
-    const { handleSubmit, pristine, reset, submitting } = props
+    const {handleSubmit, pristine, reset, submitting} = props
     return (
         <form onSubmit={handleSubmit}>
             <Field name="email" type="text"
-                component={renderField} label="Email"
+                   component={renderField} label="Email"
             />
             <Field name="password" type="password"
-                component={renderField} label="Password"
+                   component={renderField} label="Password"
             />
 
             <div className="row">

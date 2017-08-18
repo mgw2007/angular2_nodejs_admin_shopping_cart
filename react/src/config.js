@@ -6,4 +6,4 @@ if (process.env.NODE_ENV == 'production') {
     localSiteUrl = '/';
 
 }
-export { localApiUrl, localSiteUrl } 
+export {localApiUrl, localSiteUrl}

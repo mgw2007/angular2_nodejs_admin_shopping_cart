@@ -1,234 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1496da26-1e27-407a-8358-3bf8eb2a0981" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/src/css/loader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/public/stylesheets/style1.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/AdminLTE.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/AdminLTE.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-bootstrap-social.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-bootstrap-social.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-fullcalendar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-select2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-select2.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-without-plugins.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/alt/AdminLTE-without-plugins.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/_all-skins.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/_all-skins.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-black-light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-black-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-black.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-black.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-blue-light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-blue-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-blue.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-green-light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-green-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-green.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-purple-light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-purple-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-purple.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-red-light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-red-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-red.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-yellow-light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-yellow-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/css/skins/skin-yellow.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/avatar04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/avatar2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/avatar3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/avatar5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/boxed-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/boxed-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/american-express.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/cirrus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/mastercard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/mestro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/paypal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/paypal2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/credit/visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/default-50x50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/photo1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/photo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/photo3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/photo4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user1-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user2-160x160.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user3-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user4-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user5-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user6-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user7-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/img/user8-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/js/app.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/js/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/js/pages/dashboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/dist/js/pages/dashboard2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/bootstrap-notify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/bootstrap-notify.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/fastclick/fastclick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/fastclick/fastclick.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/flat@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/flat/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/futurico/futurico.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/futurico/futurico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/futurico/futurico@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/icheck.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/icheck.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/line.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/line@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/line/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/minimal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/minimal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/minimal@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/minimal/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/polaris/polaris.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/polaris/polaris.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/polaris/polaris@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/square.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/square@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/iCheck/square/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/jQuery/jquery-2.2.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/jQueryUI/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/jQueryUI/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/slimScroll/jquery.slimscroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/assets/plugins/slimScroll/jquery.slimscroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/boxed-bg.7799dece2c79854f63f0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/fontawesome-webfont.674f50d287a8c48dc19b.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/fontawesome-webfont.912ec66d7572ff821749.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/fontawesome-webfont.af7ae505a9eed503f8b8.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/fontawesome-webfont.b06871f281fee6b241d6.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/fontawesome-webfont.fee66e712a8a08eef580.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/glyphicons-halflings-regular.89889688147bd7575d63.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/glyphicons-halflings-regular.fa2772327f55d8198301.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/inline.d29802429416dc1671f0.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/ionicons.311d81961c5880647fec.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/ionicons.74c652671225d6ded874.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/ionicons.81414686e99c00d2921e.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/ionicons.bdf1d30681cf87986c38.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/ionicons.d9496a234c81179afbca.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/main.4fe7574a18a8a66c5417.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/polyfills.6c8aa8219053fa5f43b5.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/scripts.bac88c1f3521c1432079.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/styles.d5e9f2b46591d95cab7c.bundle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/public/admin_dashboard/vendor.9b9aade7014f587f44c4.bundle.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/.angular-cli.json" afterPath="$PROJECT_DIR$/angular/.angular-cli.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/css/styles.css" afterPath="$PROJECT_DIR$/angular/src/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/src/actions/adminActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/src/actions/bootstrapActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/src/components/admin/AdminAdd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/src/components/admin/AdminEdit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/src/components/admin/AdminForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/src/components/admin/AdminList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/src/components/bootstrap/confirmModal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/src/components/bootstrap/loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/src/containers/BootstrapContainer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/src/reducers/adminReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/src/reducers/bootstrapReducer.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/src/actions/flashMessageActions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/src/actions/loaderActions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/src/components/flashMessage/flashMessage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/src/containers/FlashMessageContainer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/src/containers/PageLoaderContainer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/src/reducers/addProductReducer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/src/reducers/flashMessageReducer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/src/reducers/loaderReducer.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/components/admin-form/admin-form.component.ts" afterPath="$PROJECT_DIR$/angular/src/app/components/admin-form/admin-form.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/controllers/images.js" afterPath="$PROJECT_DIR$/backend/controllers/images.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/backend/public/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/views/layouts/layout.ejs" afterPath="$PROJECT_DIR$/backend/views/layouts/layout.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/actions/apiRequests.js" afterPath="$PROJECT_DIR$/react/src/actions/apiRequests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/actions/appActions.js" afterPath="$PROJECT_DIR$/react/src/actions/appActions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/actions/authActions.js" afterPath="$PROJECT_DIR$/react/src/actions/authActions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/actions/index.js" afterPath="$PROJECT_DIR$/react/src/actions/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/actions/productActions.js" afterPath="$PROJECT_DIR$/react/src/actions/productActions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/components/app/Header.js" afterPath="$PROJECT_DIR$/react/src/components/app/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/components/app/Layout.js" afterPath="$PROJECT_DIR$/react/src/components/app/Layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/components/app/Navbar.js" afterPath="$PROJECT_DIR$/react/src/components/app/Navbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/components/login/Login.js" afterPath="$PROJECT_DIR$/react/src/components/login/Login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/components/login/LoginForm.js" afterPath="$PROJECT_DIR$/react/src/components/login/LoginForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/components/product/ProductAdd.js" afterPath="$PROJECT_DIR$/react/src/components/product/ProductAdd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/components/product/ProductForm.js" afterPath="$PROJECT_DIR$/react/src/components/product/ProductForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/components/product/ProductList.js" afterPath="$PROJECT_DIR$/react/src/components/product/ProductList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/config.js" afterPath="$PROJECT_DIR$/react/src/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/containers/AdminFormContainer.js" afterPath="$PROJECT_DIR$/react/src/containers/AdminFormContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/containers/AdminListContainer.js" afterPath="$PROJECT_DIR$/react/src/containers/AdminListContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/containers/AppContainer.js" afterPath="$PROJECT_DIR$/react/src/containers/AppContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/containers/DashboardContainer.js" afterPath="$PROJECT_DIR$/react/src/containers/DashboardContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/containers/LoginContainer.js" afterPath="$PROJECT_DIR$/react/src/containers/LoginContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/containers/OrderContainer.js" afterPath="$PROJECT_DIR$/react/src/containers/OrderContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/containers/ProductFormContainer.js" afterPath="$PROJECT_DIR$/react/src/containers/ProductFormContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/containers/ProductListContainer.js" afterPath="$PROJECT_DIR$/react/src/containers/ProductListContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/form/FormValidations.js" afterPath="$PROJECT_DIR$/react/src/form/FormValidations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/index.js" afterPath="$PROJECT_DIR$/react/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/reducers/appReducer.js" afterPath="$PROJECT_DIR$/react/src/reducers/appReducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/reducers/authReducer.js" afterPath="$PROJECT_DIR$/react/src/reducers/authReducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/reducers/productReducer.js" afterPath="$PROJECT_DIR$/react/src/reducers/productReducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/reducers/userReducer.js" afterPath="$PROJECT_DIR$/react/src/reducers/userReducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/root.js" afterPath="$PROJECT_DIR$/react/src/root.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/routes.js" afterPath="$PROJECT_DIR$/react/src/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/store.js" afterPath="$PROJECT_DIR$/react/src/store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/src/utils/index.js" afterPath="$PROJECT_DIR$/react/src/utils/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -240,101 +77,113 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="loader.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/css/loader.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/public/stylesheets/style1.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".angular-cli.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/.angular-cli.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/css/styles.css">
+      <file leaf-file-name="AdminFormContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/src/containers/AdminFormContainer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
+              <caret line="15" column="79" lean-forward="false" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/controllers/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shoppingCart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/controllers/shoppingCart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/views/shop/index.ejs">
+      <file leaf-file-name="AdminAdd.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/src/components/admin/AdminAdd.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-              <folding />
+              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="images.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/controllers/images.js">
+      <file leaf-file-name="ProductEdit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/src/components/product/ProductEdit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/public/stylesheets/style.css">
+      <file leaf-file-name="AdminForm.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react/src/components/admin/AdminForm.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <caret line="116" column="49" lean-forward="true" selection-start-line="116" selection-start-column="49" selection-end-line="116" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getFormValues.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/node_modules/redux-form/es/getFormValues.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getFormValues.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/node_modules/redux-form/es/selectors/getFormValues.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/views/layouts/layout.ejs">
+      <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/src/store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+            <state relative-caret-position="357">
+              <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductFormContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/src/containers/ProductFormContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="113" column="20" lean-forward="false" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductAdd.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/src/components/product/ProductAdd.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/src/components/product/ProductForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1683">
+              <caret line="101" column="15" lean-forward="false" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -344,9 +193,48 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>style</find>
-      <find>font</find>
+      <find>hidelo</find>
+      <find>BOOTSTRAP_HIDE_LOADER</find>
+      <find>React</find>
+      <find>booot</find>
+      <find>addf</find>
+      <find>PageLoaderContainer</find>
+      <find>FlashMessageContainer</find>
+      <find>FlashMessages</find>
+      <find>bootstrap</find>
+      <find>tabindex</find>
+      <find>componentDidMount</find>
+      <find>DELETE_PRODUCT</find>
+      <find>bootst</find>
+      <find>productDeleted</find>
+      <find>delete</find>
+      <find>Bootstrap</find>
+      <find>ReduxThunk</find>
+      <find>replace</find>
+      <find>PRODUCT</find>
+      <find>productSaved</find>
+      <find>Product</find>
+      <find>renderField</find>
+      <find>class=</find>
+      <find>box-footer</find>
+      <find>formControlName</find>
+      <find>onClick</find>
+      <find>$</find>
+      <find>initialValues</find>
+      <find>AdminForm</find>
+      <find>&lt;input</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Bootstrap</replace>
+      <replace>ADMIN</replace>
+      <replace>Admin</replace>
+      <replace>className=</replace>
+      <replace>&lt;Field</replace>
+      <replace>&lt;Field component=&quot;input&quot;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\react\src</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -358,7 +246,33 @@
         <option value="$PROJECT_DIR$/backend/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/angular/src/css/style.css" />
         <option value="$PROJECT_DIR$/angular/.angular-cli.json" />
+        <option value="$PROJECT_DIR$/backend/.eslintrc" />
         <option value="$PROJECT_DIR$/backend/controllers/images.js" />
+        <option value="$PROJECT_DIR$/react/src/components/flashMessage/flashMessage.js" />
+        <option value="$PROJECT_DIR$/react/src/containers/FlashMessageContainer.js" />
+        <option value="$PROJECT_DIR$/react/src/components/bootstrap/loader.js" />
+        <option value="$PROJECT_DIR$/react/src/containers/AppContainer.js" />
+        <option value="$PROJECT_DIR$/react/src/components/app/Layout.js" />
+        <option value="$PROJECT_DIR$/react/src/reducers/bootstrapReducer.js" />
+        <option value="$PROJECT_DIR$/react/src/components/product/ProductList.js" />
+        <option value="$PROJECT_DIR$/react/src/actions/bootstarpActions.js" />
+        <option value="$PROJECT_DIR$/react/src/components/bootstrap/confirmModal.js" />
+        <option value="$PROJECT_DIR$/react/src/reducers/addProductReducer.js" />
+        <option value="$PROJECT_DIR$/react/webpack.config.js" />
+        <option value="$PROJECT_DIR$/react/src/containers/BootstrapContainer.js" />
+        <option value="$PROJECT_DIR$/react/src/reducers/productReducer.js" />
+        <option value="$PROJECT_DIR$/backend/controllers/admin/products.js" />
+        <option value="$PROJECT_DIR$/react/src/containers/ProductListContainer.js" />
+        <option value="$PROJECT_DIR$/react/src/containers/ProductFormContainer.js" />
+        <option value="$PROJECT_DIR$/react/src/actions/apiRequests.js" />
+        <option value="$PROJECT_DIR$/react/src/actions/productActions.js" />
+        <option value="$PROJECT_DIR$/react/src/reducers/adminReducer.js" />
+        <option value="$PROJECT_DIR$/react/src/actions/adminActions.js" />
+        <option value="$PROJECT_DIR$/angular/src/app/components/admin-form/admin-form.component.ts" />
+        <option value="$PROJECT_DIR$/react/src/store.js" />
+        <option value="$PROJECT_DIR$/react/src/components/admin/AdminAdd.js" />
+        <option value="$PROJECT_DIR$/react/src/containers/AdminFormContainer.js" />
+        <option value="$PROJECT_DIR$/react/src/components/admin/AdminForm.js" />
       </list>
     </option>
   </component>
@@ -377,6 +291,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/angular/node_modules" />
     <handled-path value="$PROJECT_DIR$/backend/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -384,6 +299,37 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSHint</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -422,7 +368,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
+              <option name="myItemId" value="react" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -436,101 +382,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping-cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping-cart" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping-cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping-cart" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping-cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping-cart" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping-cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping-cart" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping-cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping-cart" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
+              <option name="myItemId" value="react" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -548,7 +400,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
+              <option name="myItemId" value="react" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -556,7 +408,103 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="reducers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping-cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -567,7 +515,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -575,16 +523,24 @@
     <property name="node.js.selected.package.jscs" value="C:\Users\mina\AppData\Roaming\npm\node_modules\jscs" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.eslint" value="D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\backend\node_modules\eslint" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.selected.package.standard" value="D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\backend\node_modules\eslint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../dev.mytreetop.com" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.10.1" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="CoffeeScriptLiterate" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\angular\node_modules\tslint" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\backend\public\stylesheets" />
-      <recent name="D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\angular\src\css" />
+      <recent name="D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\react\src\actions" />
+      <recent name="D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\react\src\reducers" />
+      <recent name="D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\react\src\components" />
+      <recent name="D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\react\src\components\bootstrap" />
+      <recent name="D:\mina\PhpstormProjects\mean-stack-fronToBack\shopping-cart\react\src\containers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -680,31 +636,40 @@
       <updated>1494194131339</updated>
       <workItem from="1494194136423" duration="1451000" />
       <workItem from="1494195792163" duration="777000" />
+      <workItem from="1500978677388" duration="5796000" />
+      <workItem from="1501008175353" duration="14971000" />
+      <workItem from="1501058790072" duration="6717000" />
+      <workItem from="1501095350034" duration="9290000" />
+      <workItem from="1501108316018" duration="4574000" />
+      <workItem from="1501152029701" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2228000" />
+    <option name="totallyTimeSpent" value="43653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25377643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27760968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -716,167 +681,352 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/react/src/reducers/adminReducer.js</url>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/angular/src/css/loader.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/public/stylesheets/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/.angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/shoppingCart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/shop/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/images.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/layouts/layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/css/loader.css">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.litcoffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/public/stylesheets/style1.css">
+    <entry file="file://$PROJECT_DIR$/react/src/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/layouts/layout.ejs">
+    <entry file="file://$PROJECT_DIR$/react/src/actions/loaderActions.js" />
+    <entry file="file://$PROJECT_DIR$/react/src/reducers/flashMessageReducer.js" />
+    <entry file="file://$PROJECT_DIR$/react/src/components/bootstrap/flashMessage.js" />
+    <entry file="file://$PROJECT_DIR$/react/src/containers/FlashMessageContainer.js" />
+    <entry file="file://$PROJECT_DIR$/react/src/actions/flashMessageActions.js" />
+    <entry file="file://$PROJECT_DIR$/react/src/components/flashMessage/flashMessage.js" />
+    <entry file="file://$PROJECT_DIR$/react/src/containers/PageLoaderContainer.js" />
+    <entry file="file://$PROJECT_DIR$/react/src/containers/AppContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/shop/index.ejs">
+    <entry file="file://$PROJECT_DIR$/react/src/components/app/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-          <folding />
+        <state relative-caret-position="245">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/shoppingCart.js">
+    <entry file="file://$PROJECT_DIR$/react/src/containers/DashboardContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/public/stylesheets/style.css">
+    <entry file="file://$PROJECT_DIR$/react/src/utils/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/.angular-cli.json">
+    <entry file="file://$PROJECT_DIR$/react/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/index.js">
+    <entry file="file://$PROJECT_DIR$/react/src/root.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/react/src/components/bootstrap/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/components/products/products.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/reducers/bootstrapReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/components/bootstrap/confirm-modal/confirm-modal.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/actions/bootstrapActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/components/product/ProductList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/components/bootstrap/confirmModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/reducers/appReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/reducers/productReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="60" column="6" lean-forward="true" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/containers/BootstrapContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/admin/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/actions/appActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/actions/authActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/containers/ProductListContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/reducers/productReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="927">
+          <caret line="60" column="31" lean-forward="false" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/actions/apiRequests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/actions/productActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/containers/AdminListContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/reducers/adminReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/images.js">
+    <entry file="file://$PROJECT_DIR$/react/src/actions/adminActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="714">
+          <caret line="42" column="56" lean-forward="false" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/components/admin-form/admin-form.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" column="26" lean-forward="false" selection-start-line="135" selection-start-column="19" selection-end-line="141" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/components/admin-form/admin-form.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="83" column="8" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="97" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/containers/ProductFormContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="113" column="20" lean-forward="false" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/node_modules/redux-form/es/selectors/getFormValues.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/node_modules/redux-form/es/getFormValues.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/components/product/ProductEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/components/admin/AdminAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/components/product/ProductAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/containers/AdminFormContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="79" lean-forward="false" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/components/product/ProductForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="101" column="15" lean-forward="false" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/src/components/admin/AdminForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="116" column="49" lean-forward="true" selection-start-line="116" selection-start-column="49" selection-end-line="116" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import { AppContainer } from 'react-hot-loader'
+import {AppContainer} from 'react-hot-loader'
 // import {Dashboard} from './dashboard/Dashboard';
 import {Root as Dashboard} from "./root";
 const render = (Component) => {

@@ -61,7 +61,7 @@ export class AdminFormComponent implements OnInit, AfterViewInit {
                     this.oldAdminData = e;
                     console.log(this.oldAdminData.roles)
                     this.adminForm.patchValue(this.oldAdminData);
-                     $('.adminForm').find('input').iCheck('update');
+                    $('.adminForm').find('input').iCheck('update');
                 });
                 this.adminForm.controls['password'].clearValidators()
                 this.adminForm.controls['password'].setValidators(Validators.minLength(4));
@@ -123,6 +123,7 @@ export class AdminFormComponent implements OnInit, AfterViewInit {
             }
         }
     }
+
     goToAdminsList() {
         this.router.navigate(['/admins']);
     }

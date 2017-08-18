@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router'
+import {Link} from 'react-router'
 let urls = {
     dashboard: {
         url: 'dashboard',
@@ -70,7 +70,7 @@ const BootstrapNavTree = (props) => {
     let lis = [];
     let className = "treeview ";
     for (var i in props.urls) {
-        lis.push(<BootstrapNavLink {...props.urls[i]} key={i} router={props.router} />)
+        lis.push(<BootstrapNavLink {...props.urls[i]} key={i} router={props.router}/>)
         if (props.router.getCurrentLocation().pathname == "/" + props.urls[i].url) {
             className += "active";
         }
@@ -85,7 +85,7 @@ const BootstrapNavTree = (props) => {
                     <i className="fa fa-angle-left pull-right"></i>
                 </span>
             </a>
-            <ul className="treeview-menu" >
+            <ul className="treeview-menu">
                 {lis}
             </ul>
         </li>
@@ -96,10 +96,10 @@ export const Navbar = (props) => {
     let lis = [];
     for (var i in urls) {
         if (urls[i].treeview) {
-            lis.push(<BootstrapNavTree {...urls[i]} key={i} router={props.router} />)
+            lis.push(<BootstrapNavTree {...urls[i]} key={i} router={props.router}/>)
         }
         else {
-            lis.push(<BootstrapNavLink {...urls[i]} key={i} router={props.router} />)
+            lis.push(<BootstrapNavLink {...urls[i]} key={i} router={props.router}/>)
         }
     }
     return (
@@ -141,7 +141,7 @@ const Navbar1 = (props) => {
                             <i className="fa fa-angle-left pull-right"></i>
                         </span>
                     </a>
-                    <ul className="treeview-menu" >
+                    <ul className="treeview-menu">
                         <li>
                             <Link to="/products">
                                 <i className="fa fa-circle-o"></i>

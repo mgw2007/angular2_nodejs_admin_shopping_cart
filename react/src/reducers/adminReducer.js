@@ -1,67 +1,64 @@
 import {PENDING, FULFILLED, REJECTED} from "redux-promise-middleware";
 import {
-    GET_PRODUCTS,
-    UPLOAD_PRODUCT_IMAGE,
-    TOUCH_PRODUCT_IMAGE,
-    ADD_PRODUCT,
-    ADD_PRODUCT_INIT_STATE,
-    GET_PRODUCT_DATA_FOR_UPDATE,
-    UPDATE_PRODUCT,
-    DELETE_PRODUCT,
-} from "../actions/productActions";
+    GET_ADMINS,
+    UPLOAD_ADMIN_IMAGE,
+    TOUCH_ADMIN_IMAGE,
+    ADD_ADMIN,
+    ADD_ADMIN_INIT_STATE,
+    GET_ADMIN_DATA_FOR_UPDATE,
+    UPDATE_ADMIN,
+    DELETE_ADMIN,
+} from "../actions/adminActions";
 import API from "../actions/apiRequests";
 const initialState = {
-    productSaved: false,
-    productIsDelete: false,
-    productImage: null,
-    productImageTouched: false,
-    productUploadedImage: null,
-    isOldProduct: false,
+    adminIsSave: false,
+    adminIsDelete: false,
+    isOldAdmin: false,
     data: {},
-    products: []
+    admin: []
 };
 
 export default (state = initialState, action) => {
     switch (action.type) {
-        case ADD_PRODUCT_INIT_STATE:
+        case ADD_ADMIN_INIT_STATE:
             state = Object.assign({}, state, initialState);
             break;
-        case TOUCH_PRODUCT_IMAGE:
+        case TOUCH_ADMIN_IMAGE:
             state = Object.assign({}, state, {
                 productImageTouched: true
             });
             break;
-        case UPLOAD_PRODUCT_IMAGE:
+        case UPLOAD_ADMIN_IMAGE:
             state = Object.assign({}, state, {
                 productImageTouched: true,
                 productImage: action.payload.file,
                 productUploadedImage: action.payload.uploadedImage
             });
             break;
-        case `${ADD_PRODUCT}_${FULFILLED}`:
+        case `${ADD_ADMIN}_${FULFILLED}`:
             state = Object.assign({}, state, {
                 productSaved: true
             });
             break;
-        case `${UPDATE_PRODUCT}_${FULFILLED}`:
+        case `${UPDATE_ADMIN}_${FULFILLED}`:
             state = {
                 ...state,
                 productSaved: true
             };
             break;
-        case `${DELETE_PRODUCT}_${PENDING}`:
+        case `${DELETE_ADMIN}_${PENDING}`:
             state = {
                 ...state,
                 productIsDelete: true
             };
             break;
-        case `${DELETE_PRODUCT}_${FULFILLED}`:
+        case `${DELETE_ADMIN}_${FULFILLED}`:
             state = {
                 ...state,
                 productIsDelete: false
             };
             break;
-        case `${GET_PRODUCT_DATA_FOR_UPDATE}_${FULFILLED}`:
+        case `${GET_ADMIN_DATA_FOR_UPDATE}_${FULFILLED}`:
             state = {
                 ...state,
                 isOldProduct: true,
@@ -74,7 +71,7 @@ export default (state = initialState, action) => {
                 }
             };
             break;
-        case `${GET_PRODUCTS}_${FULFILLED}`:
+        case `${GET_ADMINS}_${FULFILLED}`:
             state = {
                 ...state,
                 products: action.payload.data
